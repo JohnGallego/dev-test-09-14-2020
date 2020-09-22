@@ -64,7 +64,7 @@
     }
   }
 
-  var css_248z = "@font-face {\n  font-family: Utopia;\n  src: url('./assets/fonts/Utopia\\ Std\\ Black\\ Headline.otf');\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: ProximaNova;\n  src: url('./assets/fonts/Proxima\\ Nova\\ Bold.otf');\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: ProximaNova;\n  src: url('./assets/fonts/Proxima\\ Nova\\ Reg.otf');\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n*,\n*:before,\n*:after {\n  -webkit-box-sizing: inherit;\n  -moz-box-sizing: inherit;\n  box-sizing: inherit;\n}\n\nbody {\n  margin: 0;\n  padding: 0 40px;\n  font-family: CrimsonPro;\n  font-size: 20px;\n  font-weight: 300;\n  color: #2c2c2c;\n}\n\nh1 {\n  font-family: Utopia;\n  font-size: 60px;\n  font-weight: bold;\n  color: #016cd1;\n  text-align: center;\n  margin-bottom: 10px;\n}\n\nh2,\nh3 {\n  font-family: ProximaNova;\n  font-weight: bold;\n  margin: 0;\n}\n\nnav {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  padding: 20px 40px;  \n  background-color: #32323b;\n  margin: 0 -40px;\n  color: #fbfbfb;\n}\n\nnav > h1 {\n  font-family: ProximaNova;\n  font-size: 24px;\n  font-weight: 300;\n  color: #fbfbfb;\n}\n\nnav .flex {\n  flex: 1 1 auto;\n}\n\nnav a {\n  font-family: ProximaNova;\n  font-weight: 300;\n  font-size: 20px;\n  color: #ffffff;\n  margin-right: 30px;\n  text-decoration: none;  \n}\n\n.plan-title__content {\n  font-size: 24px;\n  font-weight: 500;\n  text-align: center;\n}\n\nbutton {\n  padding: 16px 36px;\n  background-color: #016cd1;\n  border: none;\n  border-radius: 6px;\n  font-family: ProximaNova;\n  font-weight: bold;\n  font-size: 24px;\n  line-height: 1.29;\n  text-align: center;\n  color: #ffffff;\n  text-transform: capitalize;\n  cursor: pointer;\n}\n\nempty-meal-card {\n  display: flex;\n  flex-direction: column;\n  max-width: 500px;\n  width: 100%;\n  min-height: 550px;\n}\n\nempty-meal-card .empty-meal-card__label,\nmeal-card .meal-card__label {\n  font-family: ProximaNova;\n  font-size: 20px;\n  font-weight: bold;\n  color: #a2a2a2;\n  margin-top: 0;\n  margin-bottom: 11px;\n  text-transform: capitalize;\n}\n\nempty-meal-card .empty-meal-card__card-container {\n  flex: 1 1 auto;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  border: solid 1px #d3d3d3;\n  padding: 25px;\n  background-color: #ffffff;\n}\n\nempty-meal-card .empty-meal-card__title,\nempty-plan .empty-plan__title {\n  font-size: 28px;\n  font-weight: 300;\n  line-height: 1.29;\n  text-align: center;\n  color: #707070;\n  margin-bottom: 17px;\n}\n\nmeal-card {\n  display: flex;\n  flex-direction: column;\n  max-width: 500px;\n  width: 100%;\n  min-height: 550px;\n}\n\nmeal-card .meal-card__img {\n  width: 100%;\n  height: auto;\n}\n\nmeal-card .meal-card__title {\n  margin-top: 28px;\n  margin-bottom: 40px;\n  padding: 0 2.5em;\n  font-size: 24px;\n  text-align: center;\n}\n\nmeal-card .meal-card__description {\n  margin-top: 0;\n  text-align: center;\n}\n\nsection.snacks-plan {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto auto;\n  grid-template-areas:\n    'header header header'\n    'breakfast lunch dinner';\n  column-gap: 40px;\n  padding: 0 60px;\n}\n\nempty-plan {\n  display: flex;\n  flex-direction: column;\n  border: solid 1px #d1d1d1;\n  padding: 42px;\n}\n\nempty-plan button {\n  align-self: center;\n}\n\nempty-plan .empty-plan__info {\n  text-align: center;\n  color: #707070;\n}\n\n@media screen and (max-width: 599px) {\n  section.snacks-plan {\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: auto auto auto;\n    grid-template-areas:\n      'header'\n      'breakfast'\n      'lunch'\n      'dinner';\n    column-gap: 0;\n    padding: 0 30px;\n  }\n\n  empty-meal-card {\n    max-width: 500px;\n    width: 100%;\n    min-height: 450px;\n  }\n}\n";
+  var css_248z = "@font-face {\n  font-family: Utopia;\n  src: url('./assets/fonts/Utopia\\ Std\\ Black\\ Headline.otf');\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: ProximaNova;\n  src: url('./assets/fonts/Proxima\\ Nova\\ Bold.otf');\n  font-weight: bold;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: ProximaNova;\n  src: url('./assets/fonts/Proxima\\ Nova\\ Reg.otf');\n  font-weight: normal;\n  font-style: normal;\n}\n\nhtml {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n*,\n*:before,\n*:after {\n  -webkit-box-sizing: inherit;\n  -moz-box-sizing: inherit;\n  box-sizing: inherit;\n}\n\nbody {\n  margin: 0;\n  padding: 0 40px;\n  font-family: CrimsonPro;\n  font-size: 20px;\n  font-weight: 300;\n  color: #2c2c2c;\n}\n\nh1 {\n  font-family: Utopia;\n  font-size: 60px;\n  font-weight: bold;\n  color: #016cd1;\n  text-align: center;\n  margin-bottom: 10px;\n}\n\nh2,\nh3 {\n  font-family: ProximaNova;\n  font-weight: bold;\n  margin: 0;\n}\n\nnav {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  padding: 20px 40px;\n  background-color: #32323b;\n  margin: 0 -40px;\n  color: #fbfbfb;\n}\n\nnav > h1 {\n  font-family: ProximaNova;\n  font-size: 24px;\n  font-weight: 300;\n  color: #fbfbfb;\n}\n\nnav .flex {\n  flex: 1 1 auto;\n}\n\nnav a {\n  font-family: ProximaNova;\n  font-weight: 300;\n  font-size: 20px;\n  color: #ffffff;\n  margin-right: 30px;\n  text-decoration: none;\n}\n\n.plan-title__content {\n  font-size: 24px;\n  font-weight: 500;\n  text-align: center;\n}\n\nbutton {\n  padding: 16px 36px;\n  background-color: #016cd1;\n  border: none;\n  border-radius: 6px;\n  font-family: ProximaNova;\n  font-weight: bold;\n  font-size: 24px;\n  line-height: 1.29;\n  text-align: center;\n  color: #ffffff;\n  text-transform: capitalize;\n  cursor: pointer;\n}\n\nempty-meal-card {\n  display: flex;\n  flex-direction: column;\n  max-width: 500px;\n  width: 100%;\n  min-height: 550px;\n}\n\nempty-meal-card .empty-meal-card__label,\nmeal-card .meal-card__label {\n  font-family: ProximaNova;\n  font-size: 20px;\n  font-weight: bold;\n  color: #a2a2a2;\n  margin-top: 0;\n  margin-bottom: 11px;\n  text-transform: capitalize;\n}\n\nempty-meal-card .empty-meal-card__card-container {\n  flex: 1 1 auto;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  border: solid 1px #d3d3d3;\n  padding: 25px;\n  background-color: #ffffff;\n}\n\nempty-meal-card .empty-meal-card__title,\nempty-plan .empty-plan__title {\n  font-size: 28px;\n  font-weight: 300;\n  line-height: 1.29;\n  text-align: center;\n  color: #707070;\n  margin-bottom: 17px;\n}\n\nmeal-card {\n  display: flex;\n  flex-direction: column;\n  max-width: 500px;\n  width: 100%;\n  min-height: 550px;\n}\n\nmeal-card .meal-card__img-container {\n  position: relative;\n}\n\nmeal-card .meal-card__overlay {  \n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 48px;\n  color: #ffffff;\n  background-color: #32323b;\n  z-index: 1;\n  opacity: 0;\n  transition: opacity 0.5s ease-in-out;\n}\n\nmeal-card .meal-card__overlay:hover {    \n  opacity: 1;  \n}\n\nmeal-card .meal-card__overlay_icon {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  cursor: pointer;\n}\n\nmeal-card .meal-card__overlay_icon-title {\n  margin-top: 15px;\n  font-family: ProximaNova;\n  font-weight: normal;\n  font-size: 10px;\n  text-transform: uppercase;\n  text-align: center;\n  line-height: 1.5em;\n}\n\nmeal-card .meal-card__img {\n  width: 100%;\n  height: auto;\n}\n\nmeal-card .meal-card__title {\n  margin-top: 28px;\n  margin-bottom: 40px;\n  padding: 0 2.5em;\n  font-size: 24px;\n  text-align: center;\n}\n\nmeal-card .meal-card__description {\n  margin-top: 0;\n  text-align: center;\n}\n\nsection.snacks-plan {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: auto auto;\n  grid-template-areas:\n    'header header header'\n    'breakfast lunch dinner';\n  column-gap: 40px;\n  padding: 0 60px;\n}\n\nempty-plan {\n  display: flex;\n  flex-direction: column;\n  border: solid 1px #d1d1d1;\n  padding: 42px;\n}\n\nempty-plan button {\n  align-self: center;\n}\n\nempty-plan .empty-plan__info {\n  text-align: center;\n  color: #707070;\n}\n\n@media screen and (max-width: 599px) {\n  section.snacks-plan {\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: auto auto auto;\n    grid-template-areas:\n      'header'\n      'breakfast'\n      'lunch'\n      'dinner';\n    column-gap: 0;\n    padding: 0 30px;\n  }\n\n  empty-meal-card {\n    max-width: 500px;\n    width: 100%;\n    min-height: 450px;\n  }\n}\n";
   styleInject(css_248z);
 
   const utiliyCreateImg = (imgUrl) => {
@@ -79,7 +79,7 @@
     return img;
   };
 
-  // EmptyMealCard
+  // EmptyMealCard Component
   customElements.define(
     'empty-meal-card',
     class extends HTMLElement {
@@ -103,9 +103,9 @@
     }
   );
 
-  // MealCard
+  // MealCard Component
   customElements.define(
-    'meal-card',
+    'meal-card', 
     class extends HTMLElement {
       meal = this.getAttribute('meal');
       imgUrl = this.getAttribute('img-url');
@@ -136,7 +136,7 @@
       setImage() {
         if (!this.imgUrl) {return;}
 
-        const content = this.querySelector('.meal-card__content');
+        const content = this.querySelector('.meal-card__img-container');
         const imageSet = utiliyCreateImg(this.imgUrl);
         imageSet.classList.add('meal-card__img');
         content.prepend(imageSet);
@@ -144,7 +144,7 @@
     }
   );
 
-  // DayPLan
+  // DayPLan Component
   customElements.define(
     'day-plan',
     class extends HTMLElement {
@@ -165,7 +165,7 @@
     }
   );
 
-  // EmptyPLan
+  // EmptyPLan Component
   customElements.define(
     'empty-plan',
     class extends HTMLElement {

@@ -2,7 +2,7 @@ import '@webcomponents/custom-elements';
 import './main.css';
 import { utiliyCreateImg } from './utility';
 
-// EmptyMealCard
+// EmptyMealCard Component
 customElements.define(
   'empty-meal-card',
   class extends HTMLElement {
@@ -26,9 +26,9 @@ customElements.define(
   }
 );
 
-// MealCard
+// MealCard Component
 customElements.define(
-  'meal-card',
+  'meal-card', 
   class extends HTMLElement {
     meal = this.getAttribute('meal');
     imgUrl = this.getAttribute('img-url');
@@ -59,7 +59,7 @@ customElements.define(
     setImage() {
       if (!this.imgUrl) {return;}
 
-      const content = this.querySelector('.meal-card__content');
+      const content = this.querySelector('.meal-card__img-container');
       const imageSet = utiliyCreateImg(this.imgUrl);
       imageSet.classList.add('meal-card__img');
       content.prepend(imageSet);
@@ -67,7 +67,7 @@ customElements.define(
   }
 );
 
-// DayPLan
+// DayPLan Component
 customElements.define(
   'day-plan',
   class extends HTMLElement {
@@ -88,7 +88,7 @@ customElements.define(
   }
 );
 
-// EmptyPLan
+// EmptyPLan Component
 customElements.define(
   'empty-plan',
   class extends HTMLElement {

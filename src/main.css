@@ -62,7 +62,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px 40px;  
+  padding: 20px 40px;
   background-color: #32323b;
   margin: 0 -40px;
   color: #fbfbfb;
@@ -85,7 +85,7 @@ nav a {
   font-size: 20px;
   color: #ffffff;
   margin-right: 30px;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .plan-title__content {
@@ -155,6 +155,48 @@ meal-card {
   max-width: 500px;
   width: 100%;
   min-height: 550px;
+}
+
+meal-card .meal-card__img-container {
+  position: relative;
+}
+
+meal-card .meal-card__overlay {  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  color: #ffffff;
+  background-color: #32323b;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+meal-card .meal-card__overlay:hover {    
+  opacity: 1;  
+}
+
+meal-card .meal-card__overlay_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+meal-card .meal-card__overlay_icon-title {
+  margin-top: 15px;
+  font-family: ProximaNova;
+  font-weight: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5em;
 }
 
 meal-card .meal-card__img {

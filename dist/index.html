@@ -35,6 +35,26 @@
 
   <template id="meal-card-template">
     <h2 class="meal-card__label"></h2>
+    <section class="meal-card__img-container">
+      <div class="meal-card__overlay">
+        <div class="meal-card__overlay_icon">
+          <i class="far fa-heart"></i>
+          <span class="meal-card__overlay_icon-title">Add to <br> favorites</span>
+        </div>
+        <div class="meal-card__overlay_icon">
+          <i class="fas fa-sync"></i>
+          <span class="meal-card__overlay_icon-title">Swap <br> recipe</span>
+        </div>
+        <div class="meal-card__overlay_icon">
+          <i class="fas fa-ban"></i>
+          <span class="meal-card__overlay_icon-title">Ban <br> recipe</span>
+        </div>
+        <div class="meal-card__overlay_icon">
+          <i class="far fa-trash-alt"></i>
+          <span class="meal-card__overlay_icon-title">Remove <br> meal from <br> today</span>
+        </div>
+      </div>
+    </section>
     <section class="meal-card__content">
       <h2 class="meal-card__title"></h2>
       <p class="meal-card__description"></p>
@@ -105,7 +125,7 @@
           column-gap: 0;
           padding: 0 30px;
         }
-      }  
+      }
     </style>
 
     <header>
